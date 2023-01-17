@@ -77,6 +77,7 @@ def CNOT_n(num,location_c,location_not):
     else:
         return False
 
+
 ### 受控Z门 ###
 def CZ_n(num,location_c,location_not):
     CZ_0 = np.array([

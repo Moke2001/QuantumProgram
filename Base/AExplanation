@@ -1,0 +1,12 @@
+本文档为Package Base的说明文档。
+
+本Package由Gate.py QuantumCondition.py QuantumGate.py三个python源文件组成，主要用于后续算法或程序的调取。
+
+Gate.py内含有包络Pauli-X门，Toffoli门等在内的常用的量子门，且对它们进行了参数化的封装，可以随时调用。
+
+QuantumCondition.py是量子线路状态的封装，核心是表征量子线路状态的单位向量。
+
+QuantumGate.py是量子门的封装，核心是表征量子门的酉矩阵。
+
+
+

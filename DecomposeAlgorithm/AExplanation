@@ -1,0 +1,13 @@
+本文档为Package DecomposeAlgorithm的说明文档。
+
+本Package由GeneratorSearch.py QuantumCircuitDecompose.py SingleBitDecompose.py TwoBitsDecompose四个python源文件组成。
+
+本Package主要包括对各类门的分解算法，将某种类型的门分解到通用量子门集合上。
+
+GeneratorSearch.py是求一个单量子门的生成矩阵。
+
+QuantumCircuitDecompose.py是分解任意的量子线路上的任意酉矩阵（目前还没有实现）。
+
+SingleBitDecompose.py是用RY和RZ门分解单量子门。
+
+TwoBitsDecompose.py是用单量子门和CNOT，CZ门分解双量子门。

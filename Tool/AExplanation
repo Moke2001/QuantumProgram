@@ -1,0 +1,11 @@
+本文档为Package Tool的说明文档。
+
+本Package由Binary.py DimensionChange.py Quaternion.py三个python源文件组成。
+
+本Package主要是其它包可能用到的工具形函数。
+
+Binary.py是二进制类。
+
+DimensionChange.py可以将低维量子门延拓到高维上。
+
+Quaternion.py是四元数类

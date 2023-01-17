@@ -4,6 +4,7 @@ from Tool.DimensionChange import *
 
 ### Pauli-X门 ###
 def X_n(num,location):
+    w=0
     X_0 = np.array([[0., 1.], [1., 0.]])
     return dimension_change(X_0,  num, [location])
 

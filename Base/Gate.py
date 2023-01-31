@@ -147,7 +147,7 @@ def TO_n(num,location_c_1,location_c_2,location_g):
         return dimension_change(TO_0, num, [location_c_1, location_c_2,location_g])
     elif location_c_1 < location_g < location_c_2:
         return dimension_change(TO_1, num, [location_c_1, location_g, location_c_2])
-    elif location_g>location_c_2 and location_g<location_c_1:
+    elif location_c_2 < location_g < location_c_1:
         return dimension_change(TO_1, num, [location_c_2, location_g, location_c_1])
     elif location_g < location_c_2 and location_g < location_c_1:
         return dimension_change(TO_2, num, [location_c_2, location_g, location_c_1])
